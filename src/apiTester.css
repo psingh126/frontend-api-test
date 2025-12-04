@@ -1,0 +1,93 @@
+.api-tester-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .method-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+  }
+  
+  .url-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .send-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .main-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .request-pane, .response-pane {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  .tab-container {
+    margin-bottom: 10px;
+  }
+  
+  .tab-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .tab-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .request-body-textarea, .response-display {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: monospace;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    min-height: 300px;
+  }
+  
+  .response-display {
+      white-space: pre-wrap;
+      overflow-wrap: break-word;
+  }
+  
+  .status-bar {
+      margin-bottom: 10px;
+      font-weight: bold;
+  }
+  
+  .status-code {
+      color: gray;
+  }
